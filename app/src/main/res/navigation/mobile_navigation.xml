@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeID">
+
+    <fragment
+        android:id="@+id/homeID"
+        android:name="id.co.driveme.uts.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/animeListID"
+        android:name="id.co.driveme.uts.ui.animelist.AnimeListFragment"
+        android:label="@string/menu_animelist"
+        tools:layout="@layout/fragment_animelist" />
+
+    <fragment
+        android:id="@+id/animeRevID"
+        android:name="id.co.driveme.uts.ui.animereview.AnimeReviewFragment"
+        android:label="@string/menu_animereview"
+        tools:layout="@layout/fragment_animereview" />
+
+    <fragment
+        android:id="@+id/contactUsID"
+        android:name="id.co.driveme.uts.ui.contactus.ContactUsFragment"
+        android:label="@string/menu_contactus"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/logoutID"
+        android:name="id.co.driveme.uts.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>

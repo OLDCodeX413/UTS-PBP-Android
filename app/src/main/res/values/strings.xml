@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AnimeReviewer</string>
+    <string name="buka">buka</string>
+    <string name="tutup">tutup</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_animelist">AnimeList</string>
+    <string name="menu_animereview">AnimeReview</string>
+    <string name="menu_contactus">ContactUs</string>
+    <string name="menu_logout">LogOut</string>
+
+    <string name="loremipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="fullmetaldesc">Fullmetal Alchemist merupakan serial anime terkenal karya mangaka Hiromu Arakawa yang mengusung genre ilmiah, drama, komedi, dan misteri. Fullmetal Alchemist ini mengisahkan tentang dua bersaudara yang menekuni ilmu alkimia dan melakukan tindakan di luar batas berkaitan dengan transmutasi manusia. Petualangan Edward dan Alphonse dimulai untuk mengembalikan bagian tubuh mereka yang telah diambil oleh sesuatu yang disebut gerbang kebenaran.</string>
+    <string name="bungoudesc">Bungou Stray Dogs menceritakan seorang anak laki-laki bernama Atsushi Nakajima yang diusir oleh panti asuhan tempat dia diasuh sebelumnya dan kini hidup terlantar. Bersamaan dengan itu, ada rumor terkait "Manusia Harimau" yang sedang diselidiki oleh banyak pihak, termasuk Detektif Bersenjata. Perjalanan Atsutsi kemudian berlanjut dengan bergabung dengan agensi deteksif bersenjata untuk mengatasi permasalahan dari kemampuan khusus di daerah jepang.</string>
+    <string name="shingekidesc">Shingeki no Kyojin bercerita tentang perjuangan umat manusia melawan raksasa pemakan manusia. Raksasa-raksasa tersebut berukuran 3 hingga 15 meter. Sejarah mengatakan untuk berlindung dari serangan raksasa, umat manusia membangun tiga lapis dinding berbentuk lingkaran dengan tinggi 50 meter. Apakah cerita tersebut nyata? apakah ada kebenaran lainnya diluar dinding? Hanya dengan melihat langsung, kebenaran tersebut akan terungkap!</string>
+    <string name="steinsdesc">Steins;Gate merupakan salah satu anime terbaik sepanjang masa yang berkisah tentang Okabe Rintarou yang suatu hari menemukan mayat seorang ilmuwan bernama Makise Kurisu yang tubuhnya penuh dengan darah akibat tusukan senjata tajam. Melihat hal tersebut, rintarou ingin mengungkap akar dari permasalahan yang ada dan dia mengetahui bahwa perjalanan waktu itu nyata dan bisa dilakukan. Bagaimana perjalanan rintarou dalam menyelamatkan kurisu dengan berhadapan dengan waktu itu sendiri?</string>
+    <string name="clannaddesc">Clannad menceritakan kisah seorang murid SMA kelas 3 bernama Tomoya Okazaki yang dianggap orang-orang sekitarnya berandalan hanya karena Tomoya sering membolos sekolah. Bagi Tomoya, kehidupannya terasa cukup membosankan. Sampai akhirnya, pada suatu hari, dia bertemu seseorang yang kurang percaya diri karena dia harus mengulang kelas karena sakit, Nagisa Furukawa. Sejak saat inilah, kehidupan Tomoya mulai mengalami perubahan drastis. Tomoya mulai melihat mimpi aneh (Illusionary World) dimana di dunia itu hanya ada seorang gadis yang selalu sendirian. Lalu gadis itu mulai mencoba untuk membuat suatu boneka yang terbuat dari sampah dan barang bekas yang dia kumpulkan.</string>
+
+</resources>

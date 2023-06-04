@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pink_200"
+    tools:context=".ui.contactus.ContactUsFragment">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Contact Us"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:letterSpacing="0.01"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/NamaPengembang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Nama          : Muhammad Haikal Fikri"
+        android:layout_marginStart="20pt"
+        android:textSize="35px"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/NimPengembang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NamaPengembang"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="NIM             : 2107125643"
+        android:layout_marginStart="20pt"
+        android:textSize="35px"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/HpPengembang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NimPengembang"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="WhatsApp  : Muhammad Haikal Fikri"
+        android:layout_marginStart="20pt"
+        android:textSize="35px"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/EmailPengembang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/HpPengembang"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="Email          : fabregasfikri@gmail.com"
+        android:layout_marginStart="20pt"
+        android:textSize="35px"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg1"
+        android:layout_below="@+id/EmailPengembang"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/Direct2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EmailPengembang"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="Send Direct Report"
+        android:layout_marginStart="20pt"
+        android:textSize="58px"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/Direct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EmailPengembang"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="Send Direct Report"
+        android:layout_marginStart="20pt"
+        android:textSize="55px"
+        android:textStyle="bold"
+        android:textColor="@color/pink_700" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EmailPengembang"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:hint="Nama..."
+        android:textColorHint="@color/grey"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textColor="@color/black"
+        android:hint="kritik dan saran..."
+        android:inputType="text"
+        android:textColorHint="@color/grey"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/btn_sendFeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:backgroundTint="@color/grey"
+        android:padding="4dp"
+        android:text="Send Report" />
+
+    <TextView
+        android:id="@+id/displayregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_sendFeed"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="kritik dan saran yang diberikan akan menjadi pertimbangan untuk perkembangan aplikasi untuk menjadi lebih baik lagi"
+        android:gravity="center"
+        android:paddingLeft="20pt"
+        android:paddingRight="20pt"
+        android:paddingTop="30pt"
+        android:textSize="35px"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/pink"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to AnimeReviewer"
+        android:layout_marginTop="35pt"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65pt"
+        android:layout_marginBottom="65pt"
+        android:src="@drawable/baseline_info_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi yang menyediakan informasi seputar update anime serta review tentang anime yang anda inginkan"
+        android:textAlignment="center"
+        android:layout_marginStart="15pt"
+        android:layout_marginEnd="15pt"
+        android:lineSpacingExtra="2pt"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnKeIntro2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10pt"
+        android:layout_gravity="right"
+        android:layout_marginTop="35pt"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/pink_200"
+        android:text=">" />
+
+</LinearLayout>

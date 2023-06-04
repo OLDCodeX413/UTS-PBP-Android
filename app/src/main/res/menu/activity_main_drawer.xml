@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeID"
+            android:title="Home"
+            android:icon="@menu/baseline_home_24"/>
+        <item
+            android:id="@+id/animeListID"
+            android:title="Anime List"
+            android:icon="@menu/baseline_view_headline_24"/>
+        <item
+            android:id="@+id/animeRevID"
+            android:title="Anime Review"
+            android:icon="@menu/baseline_view_list_24"/>
+        <item
+            android:id="@+id/contactUsID"
+            android:title="Contact Us"
+            android:icon="@menu/baseline_contact_support_24"/>
+        <item
+            android:id="@+id/logoutID"
+            android:title="Logout"
+            android:icon="@menu/baseline_logout_24"/>
+    </group>
+</menu>
